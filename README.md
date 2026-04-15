@@ -165,6 +165,26 @@ https://getcomposer.org/doc/
 https://www.apachefriends.org/index.html  
 https://www.phpmyadmin.net/docs/  
 
+## Resultados del proyecto
+### vista desde el navegador
+![Dashboard](docs/imagenes/vistanavegador.png)
+
+### vista del login luego de registrarte
+![Dashboard](docs/imagenes/login.png)
+
+### vista del dasboard luego de loggearte
+![Dashboard](docs/imagenes/vistadasboard.png)
+
+## Autor
+
+**Winstron Franco**  
+1GS131 - Desarrollo de Software VII 
+Universidad Tecnológica de Panamá  
+
+📧 **Email:** winston.franco@utp.ac.pa
+📧 **Email:** winstonfranco56@gmail.com<br>
+🌐 **GitHub:**[text](https://github.com/wfranco09)  
+
 
 
 
