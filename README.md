@@ -1,14 +1,14 @@
 <p align="center"><a href="https://laravel.com/" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Laboratorio #2 - Implementación de Login en Laravel
+## Laboratorio #2 - Implementación de Login en Laravel
 
-Este repositorio contiene **la ejecucióny resultado de la ejecución de Laravel** 
+Este repositorio contiene **la ejecución resultado de la ejecución de Laravel** br>
 🔹Comprender la importancia de la documentación en proyectos de desarrollo de
-software.
+software.br>
 🔹Consolidar el aprendizaje de la arquitectura Modelo-Vista-Controlador (MVC) en
-Laravel.
+Laravel.br>
 🔹Evidenciar el proceso de configuración e implementación del módulo de login en
-Laravel.
+Laravel.br>
 🔹Identificar las dificultades encontradas durante el laboratorio y las soluciones
 aplicadas
 
