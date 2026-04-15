@@ -2,13 +2,13 @@
 
 ## Laboratorio #2 - Implementación de Login en Laravel
 
-Este repositorio contiene **la ejecución resultado de la ejecución de Laravel** br>
+Este repositorio contiene **la ejecución resultado de la ejecución de Laravel** 
 🔹Comprender la importancia de la documentación en proyectos de desarrollo de
-software.br>
+software.
 🔹Consolidar el aprendizaje de la arquitectura Modelo-Vista-Controlador (MVC) en
-Laravel.br>
+Laravel.
 🔹Evidenciar el proceso de configuración e implementación del módulo de login en
-Laravel.br>
+Laravel.
 🔹Identificar las dificultades encontradas durante el laboratorio y las soluciones
 aplicadas
 
