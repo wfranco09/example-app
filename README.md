@@ -63,7 +63,7 @@ Finalmente, se creó el proyecto Laravel con el siguiente comando:
 laravel new example-app
 ```
 En este caso, el proyecto fue nombrado example-app, el cual contiene toda la estructura base de Laravel junto con el sistema de autenticación.
-Durante el proceso de instalación, se seleccionaron las siguientes opciones:
+Durante el proceso de instalación, **se seleccionaron las siguientes opciones:**
 
 🔹 Starter kit: Livewire
 🔹 Autenticación: Laravel
@@ -71,4 +71,16 @@ Durante el proceso de instalación, se seleccionaron las siguientes opciones:
 🔹 Soporte de equipos: No
 🔹 Testing: Pest
 Esto permitió generar automáticamente una aplicación con funcionalidades de login, registro y dashboard
+
+## Evidencias de comandos
+### Comandos de instalación y selección de ruta
+![laravel](docs/imagenes/laravel.png)
+
+### Creación de laravel project
+![Registro](docs/imagenes/opciones.png)
+
+### Dependencias
+![Dashboard](docs/imagenes/dependencias.png)
+
+
 
