@@ -1,4 +1,6 @@
-# 🧪 Laboratorio #2 - Implementación de Login en Laravel
+<p align="center"><a href="https://laravel.com/" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+# Laboratorio #2 - Implementación de Login en Laravel
 
 Este repositorio contiene **la ejecucióny resultado de la ejecución de Laravel** 
 🔹Comprender la importancia de la documentación en proyectos de desarrollo de
@@ -11,11 +13,10 @@ Laravel.
 aplicadas
 
 ## 📖 Introducción
+El presente laboratorio tiene como objetivo implementar un sistema de autenticación (login y registro) utilizando el framework y aplicando la arquitectura Modelo-Vista-Controlador (MVC).
+La arquitectura MVC permite organizar el proyecto de manera estructurada, separando la lógica de negocio, la interfaz de usuario y el manejo de datos, lo cual facilita el mantenimiento y escalabilidad de la aplicación.
 
-El objetivo de este laboratorio es comprender el funcionamiento del patrón MVC en Laravel mediante la implementación de un sistema de autenticación.
-
-Laravel permite estructurar el proyecto de la siguiente forma:
-
+---
 - 🧠 **Modelo (Model):** Maneja la lógica de datos y la base de datos.
 - 🎨 **Vista (View):** Representa la interfaz de usuario.
 - ⚙️ **Controlador (Controller):** Gestiona la lógica de la aplicación.
@@ -44,7 +45,6 @@ Para ejecutar este proyecto se requiere:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) 
 
 ---
-
 ## 🚀 Instalación del Proyecto
 
 Para la creación del proyecto se utilizó
@@ -65,11 +65,11 @@ laravel new example-app
 En este caso, el proyecto fue nombrado example-app, el cual contiene toda la estructura base de Laravel junto con el sistema de autenticación.
 Durante el proceso de instalación, **se seleccionaron las siguientes opciones:**
 
-🔹 Starter kit: Livewire
-🔹 Autenticación: Laravel
-🔹 Componentes: Single-file
-🔹 Soporte de equipos: No
-🔹 Testing: Pest
+🔹 Starter kit: Livewire<br>
+🔹 Autenticación: Laravel<br>
+🔹 Componentes: Single-file<br>
+🔹 Soporte de equipos: No<br>
+🔹 Testing: Pest<br>
 Esto permitió generar automáticamente una aplicación con funcionalidades de login, registro y dashboard
 
 ## Evidencias de comandos
@@ -181,9 +181,9 @@ https://www.phpmyadmin.net/docs/
 1GS131 - Desarrollo de Software VII 
 Universidad Tecnológica de Panamá  
 
-📧 **Email:** winston.franco@utp.ac.pa
+📧 **Email:** winston.franco@utp.ac.pa<br>
 📧 **Email:** winstonfranco56@gmail.com<br>
-🌐 **GitHub:**[text](https://github.com/wfranco09)
+🌐 **GitHub:** https://github.com/wfranco09<br>
 
 **Instructor del Laboratorio::** Ing. Irina Fong
 
