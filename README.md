@@ -183,8 +183,12 @@ Universidad Tecnológica de Panamá
 
 📧 **Email:** winston.franco@utp.ac.pa
 📧 **Email:** winstonfranco56@gmail.com<br>
-🌐 **GitHub:**[text](https://github.com/wfranco09)  
+🌐 **GitHub:**[text](https://github.com/wfranco09)
 
+**Instructor del Laboratorio::** Ing. Irina Fong
+
+## Fecha de Ejecución del Laboratorio
+8 de abril del 2026
 
 
 
