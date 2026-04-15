@@ -47,9 +47,28 @@ Para ejecutar este proyecto se requiere:
 
 ## 🚀 Instalación del Proyecto
 
-Se utilizó el siguiente flujo de comandos:
-
+Para la creación del proyecto se utilizó
+Primeramente, se abrió la terminal del sistema (CMD) y se ejecutaron los siguientes comandos:
 ```bash
 composer global require laravel/installer
+```
+Este comando permite instalar el instalador global de Laravel, el cual facilita la creación de nuevos proyectos.
+Luego, se accedió a la carpeta del servidor local proporcionado por XAMPP:
+```bash
 cd C:\xampp\htdocs
+```
+Esta ruta corresponde al directorio donde se almacenan los proyectos web en el entorno local.
+Finalmente, se creó el proyecto Laravel con el siguiente comando:
+```bash
 laravel new example-app
+```
+En este caso, el proyecto fue nombrado example-app, el cual contiene toda la estructura base de Laravel junto con el sistema de autenticación.
+Durante el proceso de instalación, se seleccionaron las siguientes opciones:
+
+🔹 Starter kit: Livewire
+🔹 Autenticación: Laravel
+🔹 Componentes: Single-file
+🔹 Soporte de equipos: No
+🔹 Testing: Pest
+Esto permitió generar automáticamente una aplicación con funcionalidades de login, registro y dashboard
+
