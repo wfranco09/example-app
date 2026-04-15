@@ -106,6 +106,7 @@ Este archivo permite definir los parámetros necesarios para la conexión con la
 ## Migraciones
 Laravel utiliza migraciones para crear y gestionar la estructura de la base de datos.
 El siguiente código corresponde a la migración de la tabla users:
+```env
 Schema::create('users', function (Blueprint $table) {
     $table->id();
     $table->string('name');
@@ -115,6 +116,7 @@ Schema::create('users', function (Blueprint $table) {
     $table->rememberToken();
     $table->timestamps();
 });
+```
 Además, se crean otras tablas importantes como:
 - password_reset_tokens
 - sessions
@@ -128,10 +130,41 @@ Este comando ejecuta todas las migraciones y crea las tablas necesarias en la ba
 ![Dashboard](docs/imagenes/dtb.png)
 
 ## Evidencia de la base de datos
+
 Respaldo de la base de datos
 Se realizó un respaldo (backup) de la base de datos exportándola desde phpMyAdmin en formato .sql, el cual se incluye en el repositorio.
 Este respaldo permite restaurar la base de datos en caso de ser necesario.
+
 ![Dashboard](docs/imagenes/datab.png)
+
+## Evidencia de Backup
+![Dashboard](docs/imagenes/backup.png)
+
+## ⚠️ Dificultades y Soluciones
+
+Durante el desarrollo del laboratorio se presentaron diversas dificultades, las cuales fueron solucionadas de la siguiente manera:
+
+### Problema 1: Acceso incorrecto a la ruta del proyecto
+
+Al momento de ejecutar comandos como `php artisan`, se presentó el error debido a que no se estaba ubicado en la carpeta del proyecto.
+**Solución:**
+Se utilizó el comando `cd` para acceder correctamente a la ruta del proyecto:
+
+```bash
+cd C:\xampp\htdocs\example-app
+```
+
+## Problema 2: Error con extensión ZIP en PHP
+Durante la instalación del proyecto, se presentó un error indicando que la extensión ZIP no estaba habilitada.
+**Solución:**
+Se habilitó la extensión extension=zip en el archivo php.ini.
+
+## Referencias
+https://laravel.com/docs  
+https://getcomposer.org/doc/  
+https://www.apachefriends.org/index.html  
+https://www.phpmyadmin.net/docs/  
+
 
 
 
