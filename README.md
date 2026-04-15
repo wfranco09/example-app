@@ -82,5 +82,57 @@ Esto permitió generar automáticamente una aplicación con funcionalidades de l
 ### Dependencias
 ![Dashboard](docs/imagenes/dependencias.png)
 
+### Ejecución del servidor Laravel
+![Dashboard](docs/imagenes/ejecucion.png)
+
+## Base de Datos
+
+Para este laboratorio se utilizó el gestor de base de datos MySQL mediante el entorno de desarrollo local XAMPP.
+
+### ⚙️ Configuración del archivo .env
+
+Laravel utiliza el archivo `.env` para configurar la conexión a la base de datos:
+
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=example_app
+DB_USERNAME=root
+DB_PASSWORD=
+```
+Este archivo permite definir los parámetros necesarios para la conexión con la base de datos.
+
+## Migraciones
+Laravel utiliza migraciones para crear y gestionar la estructura de la base de datos.
+El siguiente código corresponde a la migración de la tabla users:
+Schema::create('users', function (Blueprint $table) {
+    $table->id();
+    $table->string('name');
+    $table->string('email')->unique();
+    $table->timestamp('email_verified_at')->nullable();
+    $table->string('password');
+    $table->rememberToken();
+    $table->timestamps();
+});
+Además, se crean otras tablas importantes como:
+- password_reset_tokens
+- sessions
+
+## Comandos utilizados
+Para crear las tablas en la base de datos se ejecutó el siguiente comando:
+```env
+php artisan migrate
+```
+Este comando ejecuta todas las migraciones y crea las tablas necesarias en la base de datos.
+![Dashboard](docs/imagenes/dtb.png)
+
+## Evidencia de la base de datos
+Respaldo de la base de datos
+Se realizó un respaldo (backup) de la base de datos exportándola desde phpMyAdmin en formato .sql, el cual se incluye en el repositorio.
+Este respaldo permite restaurar la base de datos en caso de ser necesario.
+![Dashboard](docs/imagenes/datab.png)
+
+
 
 
